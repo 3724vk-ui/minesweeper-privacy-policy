@@ -3,253 +3,527 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>保护伞扫雷 - 隐私政策 / Minesweeper Game - Privacy Policy</title>
+    <title>保护伞扫雷 - 隐私政策</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
+            line-height: 1.8;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
             color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         h1 {
             color: #6200EA;
-            border-bottom: 2px solid #6200EA;
-            padding-bottom: 10px;
+            border-bottom: 3px solid #6200EA;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
         }
         h2 {
             color: #6200EA;
-            margin-top: 30px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-left: 4px solid #6200EA;
+            padding-left: 15px;
         }
         h3 {
             color: #7C4DFF;
-            margin-top: 20px;
+            margin-top: 25px;
+            margin-bottom: 12px;
         }
         .highlight {
             background-color: #F3E5F5;
-            padding: 15px;
-            border-left: 4px solid #6200EA;
-            margin: 20px 0;
+            padding: 20px;
+            border-left: 5px solid #6200EA;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+        .warning {
+            background-color: #FFF3E0;
+            padding: 20px;
+            border-left: 5px solid #FF9800;
+            margin: 25px 0;
+            border-radius: 4px;
         }
         .contact {
             background-color: #E8EAF6;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
         }
-        hr {
-            border: none;
-            border-top: 1px solid #ddd;
-            margin: 40px 0;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #6200EA;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        a {
+            color: #6200EA;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         .version {
             color: #666;
             font-size: 0.9em;
-            margin-top: 30px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
             text-align: center;
+        }
+        .sdk-section {
+            background-color: #F5F5F5;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            border: 1px solid #E0E0E0;
         }
     </style>
 </head>
 <body>
-    <h1>隐私政策 / Privacy Policy</h1>
-    <p><strong>最后更新日期 / Last Updated:</strong> 2026年3月</p>
+    <div class="container">
+        <h1>隐私政策</h1>
+        <p><strong>应用名称：</strong>保护伞扫雷</p>
+        <p><strong>最后更新日期：</strong>2026年3月</p>
 
-    <h2>中文版</h2>
+        <h2>概述</h2>
+        <p>我们尊重您的隐私权，并意识到保护收集到的有关您的信息的重要性。这是我们的隐私权政策，它解释了我们如何通过移动应用程序（以下简称"应用程序"），网站或第三方平台的方式收集，使用和共享数据。应用程序，第三方平台和我们不时提供的其他平台，网站产品，优惠和服务，所有这些我们统称为"服务"。</p>
+        
+        <div class="highlight">
+            <p><strong>如果您选择使用我们的服务，则表示您同意收集和使用与本政策有关的信息。</strong>我们收集的个人信息用于提供和改进服务。除本隐私政策中所述外，我们不会与任何人使用或共享您的信息。</p>
+        </div>
 
-    <h3>1. 概述</h3>
-    <p>感谢您使用扫雷游戏（以下简称"本应用"）。我们非常重视您的隐私保护。本隐私政策旨在帮助您了解本应用如何处理信息。</p>
+        <div class="warning">
+            <p><strong>应用特性说明：</strong></p>
+            <ul>
+                <li>本应用是一款<strong>完全单机的扫雷游戏</strong>，核心游戏功能无需联网即可使用</li>
+                <li>应用<strong>仅在展示广告时需要网络连接</strong>，不会上传您的游戏数据或个人信息到我们的服务器</li>
+                <li>所有游戏数据（进度、成绩、设置）均<strong>存储在您的设备本地</strong></li>
+                <li>我们<strong>没有自己的服务器</strong>，不会收集、存储或处理您的个人信息</li>
+                <li>网络权限仅用于：①加载广告内容 ②访问本隐私政策页面</li>
+            </ul>
+        </div>
 
-    <h3>2. 信息收集</h3>
-    <div class="highlight">
-        <strong>本应用本身不收集、存储或传输任何用户个人信息。</strong>
-    </div>
-    <p>本应用是一款单机游戏，所有游戏数据（包括游戏进度、统计数据、设置偏好等）仅存储在您的设备本地，不会上传到我们的服务器。</p>
-    
-    <h4>2.1 广告服务</h4>
-    <p>本应用集成了第三方广告服务以支持应用的持续开发和维护。广告服务提供商可能会收集以下信息：</p>
-    <ul>
-        <li><strong>设备信息</strong>：设备型号、操作系统版本、唯一设备标识符（如广告ID）</li>
-        <li><strong>使用信息</strong>：应用使用情况、广告展示和点击数据</li>
-        <li><strong>位置信息</strong>：大致地理位置（基于IP地址，用于展示相关广告）</li>
-    </ul>
-    <p>这些信息由广告服务提供商收集和处理，用于提供个性化广告和分析广告效果。我们不会直接访问或存储这些信息。</p>
+        <h2>个人信息收集与使用</h2>
+        
+        <h3>1. 本应用自身收集的信息</h3>
+        <div class="highlight">
+            <p><strong>重要声明：本应用自身不收集、不上传、不存储任何个人信息。</strong></p>
+        </div>
+        <p>本应用是一款<strong>完全单机的扫雷游戏</strong>，所有游戏数据（包括游戏进度、统计数据、设置偏好等）仅存储在您的设备本地SharedPreferences中，不会上传到我们的服务器。我们没有自己的后台服务器，也不会建立任何形式的用户账号系统。</p>
+        
+        <p><strong>本地存储的数据包括：</strong></p>
+        <ul>
+            <li>游戏统计数据（游戏次数、胜率、最佳时间等）</li>
+            <li>用户偏好设置（难度选择、是否显示过新手引导等）</li>
+            <li>防沉迷提示显示状态</li>
+        </ul>
+        <p><strong>这些数据的特点：</strong></p>
+        <ul>
+            <li>仅存储在您的设备本地</li>
+            <li>不包含任何可识别个人身份的信息</li>
+            <li>不会被传输到任何服务器</li>
+            <li>卸载应用后会被自动删除</li>
+        </ul>
 
-    <h3>3. 数据存储</h3>
-    <p>本应用使用Android系统的本地存储功能来保存以下数据：</p>
-    <ul>
-        <li><strong>游戏统计数据</strong>：游戏次数、胜率、最佳成绩等</li>
-        <li><strong>用户设置</strong>：难度选择、是否显示过新手引导等偏好设置</li>
-    </ul>
-    <p>这些数据仅存储在您的设备上，不会被传输或分享给任何第三方。</p>
+        <h3>2. 第三方SDK收集的信息</h3>
+        <p><strong>为什么需要广告：</strong>本应用是免费提供的，为了支持应用的持续开发和维护，我们集成了第三方广告SDK。广告收入是我们唯一的收入来源，用于支付开发成本和服务器费用（如托管隐私政策页面）。</p>
+        
+        <p><strong>广告SDK收集的信息：</strong>为了提供广告服务和改善用户体验，第三方广告SDK可能会收集以下信息：</p>
 
-    <h3>4. 权限说明</h3>
-    <p>本应用可能请求以下Android系统权限：</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>信息字段类型</th>
+                    <th>用途</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>设备信息</strong></td>
+                    <td>设备品牌、型号、软件系统版本、分辨率、网络信号强度、IP地址、设备语言、传感器信息等基础信息，用于在统计游戏数据时对用户的区分，或是用于更好的提供广告服务</td>
+                </tr>
+                <tr>
+                    <td><strong>标识符</strong></td>
+                    <td>设备标识符（如IMEI、OAID、IMSI、ICCID、GAID（仅GMS服务）、MEID、设备序列号build_serial，具体字段因软硬件版本不同而存在差异），用于用户唯一标识</td>
+                </tr>
+                <tr>
+                    <td><strong>访问粗略位置</strong></td>
+                    <td>用于投放个性化广告</td>
+                </tr>
+                <tr>
+                    <td><strong>日志数据</strong></td>
+                    <td>包括崩溃数据、性能数据，用于减少App崩溃、提供稳定可靠的服务</td>
+                </tr>
+                <tr>
+                    <td><strong>交互数据</strong></td>
+                    <td>您使用应用的时长、功能、页面访问、游戏成绩等数据，对广告的展示、点击及转化等交互数据，用于优化应用功能及广告服务</td>
+                </tr>
+                <tr>
+                    <td><strong>应用列表信息</strong></td>
+                    <td>用于广告投放、反作弊</td>
+                </tr>
+                <tr>
+                    <td><strong>其他信息</strong></td>
+                    <td>运营商信息、设备时区，用于广告投放、反作弊</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <h4>4.1 网络权限</h4>
-    <ul>
-        <li><strong>权限名称</strong>：INTERNET, ACCESS_NETWORK_STATE</li>
-        <li><strong>用途</strong>：加载和展示广告内容</li>
-        <li><strong>说明</strong>：广告服务需要网络连接来获取和展示广告</li>
-    </ul>
+        <h2>信息的分享</h2>
+        <p><strong>我们不会主动分享您的信息。</strong>由于本应用自身不收集任何个人信息，因此我们没有任何信息可以分享。</p>
+        
+        <p>但是，集成的第三方广告SDK会直接收集设备信息用于广告投放。这些信息的收集和使用由第三方SDK运营商控制，我们无法访问或控制这些数据。仅为实现本隐私政策中声明的目的（即展示广告以支持应用免费运营），这些SDK会收集必要的设备信息。</p>
+        
+        <p><strong>我们不会：</strong></p>
+        <ul>
+            <li>出售您的个人信息给任何第三方</li>
+            <li>将您的游戏数据分享给广告商</li>
+            <li>建立用户画像或进行用户行为分析（除广告SDK自身的分析外）</li>
+            <li>与其他应用或服务共享您的信息</li>
+        </ul>
 
-    <h4>4.2 存储权限（可选）</h4>
-    <ul>
-        <li><strong>用途</strong>：保存游戏统计数据和用户设置到设备本地存储</li>
-        <li><strong>说明</strong>：这些数据仅存储在您的设备上，不会上传到网络</li>
-    </ul>
+        <h2>第三方产品服务</h2>
+        <p>为保障应用程序相关功能的实现与应用安全稳定的运行，我们可能会接入由第三方提供的软件开发包（SDK）实现相关目的。我们会审慎的选择第三方产品和服务，并与第三方共同努力，采取合理的技术手段，保护您的个人信息安全。</p>
+        
+        <div class="warning">
+            <p><strong>重要提示：</strong>SDK的具体信息收集和使用情况请以SDK运营方的隐私政策或相关声明为准。我们对接入的相关第三方SDK在以下目录中列明。</p>
+        </div>
 
-    <h4>4.3 震动权限（如果实现了震动功能）</h4>
-    <ul>
-        <li><strong>权限名称</strong>：VIBRATE</li>
-        <li><strong>用途</strong>：在特定游戏事件（如点击地雷）时提供触觉反馈</li>
-        <li><strong>说明</strong>：此权限仅用于增强游戏体验，不涉及任何数据收集</li>
-    </ul>
+        <h3>集成的第三方SDK列表</h3>
 
-    <p><strong>重要说明</strong>：除广告服务所需的网络权限外，本应用不会请求位置权限、相机权限、麦克风权限或联系人权限等其他敏感权限。</p>
+        <div class="sdk-section">
+            <h4>1. 友盟+SDK</h4>
+            <p><strong>使用目的：</strong>帮助我们了解服务的使用方式，例如使用频率和持续时间，获取应用程序崩溃记录，以便可以更快的修复应用相关问题。</p>
+            <p><strong>收集数据类型：</strong>需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID/OAID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力。</p>
+            <p><strong>官网链接：</strong><a href="https://www.umeng.com/page/policy" target="_blank">友盟隐私政策</a></p>
+        </div>
 
-    <h3>5. 第三方服务</h3>
-    <p>本应用集成了以下第三方服务：</p>
-    
-    <h4>5.1 广告服务</h4>
-    <p>本应用使用第三方广告平台来展示广告。这些广告服务提供商可能包括（但不限于）：</p>
-    <ul>
-        <li>Google AdMob</li>
-        <li>其他广告网络</li>
-    </ul>
-    <p>这些服务提供商有自己的隐私政策，规定了他们如何收集和使用信息。我们建议您查看这些服务提供商的隐私政策：</p>
-    <ul>
-        <li><a href="https://policies.google.com/privacy" target="_blank">Google隐私政策</a></li>
-        <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob隐私政策</a></li>
-    </ul>
-    
-    <h4>5.2 广告个性化和退出</h4>
-    <p>广告服务提供商可能使用您的设备广告ID来提供个性化广告。您可以通过以下方式管理广告偏好：</p>
-    <ul>
-        <li><strong>Android设备</strong>：设置 > Google > 广告 > 选择退出广告个性化</li>
-        <li><strong>重置广告ID</strong>：设置 > Google > 广告 > 重置广告ID</li>
-    </ul>
-    
-    <p><strong>重要说明</strong>：除广告服务外，本应用不集成任何其他分析工具或社交媒体插件。</p>
+        <div class="sdk-section">
+            <h4>2. 优量汇SDK</h4>
+            <p><strong>使用目的：</strong>提供广告服务，从而帮助我们降低服务成本。</p>
+            <p><strong>收集数据类型：</strong>包括您的移动设备的唯一标识ID（Android ID、OAID、MAC地址）、IP地址、传感器信息、应用安装列表。这些第三方也可能会获得有关您的非精确位置信息（例如您的邮政编码）以及其他非精确位置信息，以帮助在服务和其他地方分析和投放匿名定位广告。</p>
+            <p><strong>官网链接：</strong><a href="https://e.qq.com/dev/help_detail.html?cid=2005&pid=5983" target="_blank">优量汇SDK隐私保护声明</a></p>
+        </div>
 
-    <h3>6. 儿童隐私</h3>
-    <p>本应用适合所有年龄段用户使用。我们不会主动收集任何用户（包括儿童）的个人信息。</p>
-    <p>但是，集成的广告服务可能会收集设备信息用于展示广告。根据儿童在线隐私保护法（COPPA）和其他相关法律，我们建议家长监督儿童使用本应用。</p>
-    <p>如果您是家长并且担心广告内容，您可以在设备设置中限制广告个性化或使用家长控制功能。</p>
+        <div class="sdk-section">
+            <h4>3. 穿山甲SDK</h4>
+            <p><strong>使用目的：</strong>提供广告服务，了解您如何与服务中提供的广告进行互动，从而帮助我们降低服务成本。</p>
+            <p><strong>收集数据类型：</strong>您的设备品牌、型号、操作系统版本号、浏览器信息、IP地址、软件版本号、软件地区、软件语言、网络类型、系统语言、运营商信息、平台操作、使用、服务日志，设备唯一标识（Android ID、OAID、MAC地址），应用安装列表等信息。</p>
+            <p><strong>重要说明：</strong>请您了解，这些信息是我们提供服务和保障产品正常运行所必须收集的基本信息。</p>
+            <p><strong>官网链接：</strong><a href="https://www.csjplatform.com/privacy" target="_blank">穿山甲SDK隐私政策</a></p>
+        </div>
 
-    <h3>7. 数据安全</h3>
-    <p>本应用本身不收集或传输任何用户个人数据。所有游戏数据仅存储在您的设备本地，受您设备的安全措施保护。</p>
-    <p>对于广告服务收集的信息，这些数据由第三方广告服务提供商处理和保护。我们选择的广告服务提供商都遵循行业标准的安全措施来保护用户信息。</p>
+        <div class="sdk-section">
+            <h4>4. Sigmob SDK</h4>
+            <p><strong>使用目的：</strong>提供广告服务，优化广告投放效果，从而帮助我们降低服务成本。</p>
+            <p><strong>收集数据类型：</strong>设备信息（设备品牌、型号、操作系统版本）、设备标识符（Android ID、OAID、MAC地址）、网络信息、应用使用信息、广告交互数据等。</p>
+            <p><strong>官网链接：</strong><a href="https://www.sigmob.com/privacy" target="_blank">Sigmob隐私政策</a></p>
+        </div>
 
-    <h3>8. 隐私政策变更</h3>
-    <p>我们可能会不定期更新本隐私政策。任何变更将通过应用更新的方式通知您。建议您定期查看本隐私政策以了解最新信息。</p>
+        <h2>权限说明</h2>
+        <p>本应用遵循<strong>最小权限原则</strong>，仅请求必要的系统权限。以下是详细的权限说明：</p>
+        
+        <h3>必需权限</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>权限名称</th>
+                    <th>用途说明</th>
+                    <th>是否可选</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>网络权限</strong><br>(INTERNET)</td>
+                    <td>用于加载和展示广告内容，以及访问本隐私政策页面。<strong>游戏本身无需联网即可游玩。</strong></td>
+                    <td>必需（仅用于广告）</td>
+                </tr>
+                <tr>
+                    <td><strong>网络状态</strong><br>(ACCESS_NETWORK_STATE)</td>
+                    <td>检测网络连接状态，用于判断是否可以加载广告。避免在无网络时尝试加载广告导致的错误。</td>
+                    <td>必需（仅用于广告）</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <h3>9. 联系我们</h3>
-    <div class="contact">
-        <p>如果您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
-        <p><strong>邮箱</strong>：3724vk@gmail.com</p>
-    </div>
+        <h3>可选权限（广告SDK可能请求）</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>权限名称</th>
+                    <th>用途说明</th>
+                    <th>是否可选</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>读取手机状态</strong><br>(READ_PHONE_STATE)</td>
+                    <td>广告SDK可能需要此权限获取设备标识符（如IMEI），用于广告投放和反作弊。<strong>您可以拒绝此权限，不影响游戏功能。</strong></td>
+                    <td>可选</td>
+                </tr>
+                <tr>
+                    <td><strong>粗略位置</strong><br>(ACCESS_COARSE_LOCATION)</td>
+                    <td>广告SDK可能请求此权限以提供基于地理位置的广告。<strong>您可以拒绝此权限，不影响游戏功能。</strong></td>
+                    <td>可选</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <hr>
+        <div class="warning">
+            <p><strong>权限承诺：</strong></p>
+            <ul>
+                <li>本应用<strong>不会请求</strong>相机、麦克风、通讯录、短信、通话记录等敏感权限</li>
+                <li>本应用<strong>不会请求</strong>精确位置权限（GPS）</li>
+                <li>本应用<strong>不会请求</strong>外部存储读写权限（除非您的设备系统版本较低）</li>
+                <li>所有权限请求都会在使用前向您说明用途</li>
+            </ul>
+        </div>
 
-    <h2>English Version</h2>
+        <h2>数据存储与保留</h2>
+        
+        <h3>本地数据存储</h3>
+        <p>本应用使用Android系统的SharedPreferences（本地存储）功能来保存以下数据：</p>
+        <ul>
+            <li><strong>游戏统计数据：</strong>游戏次数、胜率、最佳成绩、各难度的游戏记录等</li>
+            <li><strong>用户设置：</strong>难度选择、是否显示过新手引导、防沉迷提示状态等偏好设置</li>
+        </ul>
+        
+        <p><strong>数据存储位置：</strong>这些数据存储在您设备的应用私有目录中（/data/data/com.bhs.sl/），其他应用无法访问。</p>
+        
+        <p><strong>数据保留期限：</strong></p>
+        <ul>
+            <li>本地数据会一直保留，直到您卸载应用或清除应用数据</li>
+            <li>您可以随时通过系统设置清除应用数据来删除所有本地存储的信息</li>
+            <li>我们不会在服务器端保留任何您的数据（因为我们没有服务器）</li>
+        </ul>
 
-    <h3>1. Overview</h3>
-    <p>Thank you for using Minesweeper Game (hereinafter referred to as "the App"). We take your privacy very seriously. This Privacy Policy is designed to help you understand how the App handles information.</p>
+        <h3>广告SDK的数据存储</h3>
+        <p>第三方广告SDK可能会在您的设备上存储以下数据：</p>
+        <ul>
+            <li>广告缓存文件（用于提高广告加载速度）</li>
+            <li>广告展示和点击记录（用于广告效果统计）</li>
+            <li>设备标识符（用于广告个性化）</li>
+        </ul>
+        <p>这些数据由广告SDK管理，具体的存储和保留政策请参考各SDK的隐私政策。</p>
 
-    <h3>2. Information Collection</h3>
-    <div class="highlight">
-        <strong>The App itself does NOT collect, store, or transmit any personal user information.</strong>
-    </div>
-    <p>The App is a single-player game. All game data (including game progress, statistics, settings preferences, etc.) is stored only locally on your device and is not uploaded to our servers.</p>
-    
-    <h4>2.1 Advertising Services</h4>
-    <p>The App integrates third-party advertising services to support the ongoing development and maintenance of the app. Advertising service providers may collect the following information:</p>
-    <ul>
-        <li><strong>Device Information</strong>: Device model, operating system version, unique device identifiers (such as advertising ID)</li>
-        <li><strong>Usage Information</strong>: App usage, ad impressions and click data</li>
-        <li><strong>Location Information</strong>: Approximate geographic location (based on IP address, used to display relevant ads)</li>
-    </ul>
-    <p>This information is collected and processed by advertising service providers to provide personalized ads and analyze ad performance. We do not directly access or store this information.</p>
+        <h2>儿童隐私保护</h2>
+        <p>本应用适合所有年龄段用户使用，包括儿童。我们非常重视儿童的隐私保护。</p>
+        
+        <p><strong>我们的承诺：</strong></p>
+        <ul>
+            <li>本应用自身<strong>不会主动收集</strong>任何用户（包括儿童）的个人信息</li>
+            <li>应用内容<strong>不包含暴力、色情或其他不适合儿童的内容</strong></li>
+            <li>游戏玩法简单健康，适合作为益智休闲游戏</li>
+            <li>应用内<strong>没有社交功能</strong>，不会让儿童与陌生人交流</li>
+            <li>应用内<strong>没有内购功能</strong>，不会诱导儿童消费</li>
+        </ul>
 
-    <h3>3. Data Storage</h3>
-    <p>The App uses Android's local storage features to save the following data:</p>
-    <ul>
-        <li><strong>Game Statistics</strong>: Number of games played, win rate, best scores, etc.</li>
-        <li><strong>User Settings</strong>: Difficulty selection, tutorial display preferences, etc.</li>
-    </ul>
-    <p>This data is stored only on your device and is not transmitted or shared with any third parties.</p>
+        <p><strong>广告内容控制：</strong></p>
+        <ul>
+            <li>我们已配置广告SDK使用<strong>儿童友好模式</strong>，过滤不适合儿童的广告内容</li>
+            <li>广告SDK会遵守儿童在线隐私保护法（COPPA）的要求</li>
+            <li>不会展示需要儿童提供个人信息的广告</li>
+        </ul>
 
-    <h3>4. Permissions</h3>
-    <p>The App may request the following Android system permissions:</p>
+        <p><strong>家长指南：</strong></p>
+        <ul>
+            <li>根据儿童在线隐私保护法（COPPA）和其他相关法律，我们建议家长监督儿童使用本应用</li>
+            <li>您可以在设备设置中限制广告个性化，减少广告对儿童的影响</li>
+            <li>您可以使用设备的家长控制功能来管理应用使用时间</li>
+            <li>如果您发现任何不适合儿童的广告内容，请立即联系我们</li>
+        </ul>
 
-    <h4>4.1 Network Permission</h4>
-    <ul>
-        <li><strong>Permission Name</strong>: INTERNET, ACCESS_NETWORK_STATE</li>
-        <li><strong>Purpose</strong>: Load and display advertising content</li>
-        <li><strong>Note</strong>: Advertising services require network connection to fetch and display ads</li>
-    </ul>
+        <div class="warning">
+            <p><strong>防沉迷提示：</strong>根据国家相关规定，本应用在每次启动时会显示防沉迷系统须知，提醒用户（特别是未成年人）合理安排游戏时间，享受健康生活。</p>
+        </div>
 
-    <h4>4.2 Storage Permission (Optional)</h4>
-    <ul>
-        <li><strong>Purpose</strong>: Save game statistics and user settings to local device storage</li>
-        <li><strong>Note</strong>: This data is stored only on your device and is not uploaded to the network</li>
-    </ul>
+        <h2>数据安全</h2>
+        <p>我们了解确保您的信息安全的重要性。虽然本应用自身不收集个人信息，但我们仍然采取以下措施保护您的数据安全：</p>
+        
+        <h3>本应用的安全措施</h3>
+        <ul>
+            <li><strong>本地数据加密：</strong>游戏数据存储在Android系统的私有目录中，受系统权限保护</li>
+            <li><strong>无服务器架构：</strong>由于没有服务器，不存在数据泄露或服务器被攻击的风险</li>
+            <li><strong>最小权限原则：</strong>仅请求必要的权限，减少潜在的安全风险</li>
+            <li><strong>代码安全：</strong>应用代码经过混淆处理，防止反编译和恶意修改</li>
+        </ul>
 
-    <h4>4.3 Vibration Permission (If vibration feature is implemented)</h4>
-    <ul>
-        <li><strong>Permission Name</strong>: VIBRATE</li>
-        <li><strong>Purpose</strong>: Provide haptic feedback during specific game events (such as clicking on a mine)</li>
-        <li><strong>Note</strong>: This permission is only used to enhance the gaming experience and does not involve any data collection</li>
-    </ul>
+        <h3>第三方SDK的安全</h3>
+        <ul>
+            <li>我们选择的广告SDK都是业内知名的服务商，具有良好的安全记录</li>
+            <li>这些SDK都遵循行业标准的安全措施来保护用户信息</li>
+            <li>SDK的数据传输使用HTTPS加密协议</li>
+        </ul>
 
-    <p><strong>Important Note</strong>: Except for network permissions required by advertising services, the App does not request other sensitive permissions such as location, camera, microphone, or contacts.</p>
+        <h3>您可以采取的安全措施</h3>
+        <ul>
+            <li>从官方应用商店下载本应用，避免使用来源不明的安装包</li>
+            <li>定期更新应用到最新版本，获取安全补丁</li>
+            <li>在设备设置中管理应用权限，拒绝不必要的权限请求</li>
+            <li>使用设备的安全功能（如屏幕锁、应用锁）保护您的设备</li>
+        </ul>
 
-    <h3>5. Third-Party Services</h3>
-    <p>The App integrates the following third-party services:</p>
-    
-    <h4>5.1 Advertising Services</h4>
-    <p>The App uses third-party advertising platforms to display ads. These advertising service providers may include (but are not limited to):</p>
-    <ul>
-        <li>Google AdMob</li>
-        <li>Other advertising networks</li>
-    </ul>
-    <p>These service providers have their own privacy policies that govern how they collect and use information. We recommend that you review the privacy policies of these service providers:</p>
-    <ul>
-        <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
-        <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob Privacy Policy</a></li>
-    </ul>
-    
-    <h4>5.2 Ad Personalization and Opt-Out</h4>
-    <p>Advertising service providers may use your device's advertising ID to provide personalized ads. You can manage your ad preferences through the following methods:</p>
-    <ul>
-        <li><strong>Android Devices</strong>: Settings > Google > Ads > Opt out of Ads Personalization</li>
-        <li><strong>Reset Advertising ID</strong>: Settings > Google > Ads > Reset Advertising ID</li>
-    </ul>
-    
-    <p><strong>Important Note</strong>: Except for advertising services, the App does not integrate any other analytics tools or social media plugins.</p>
+        <div class="warning">
+            <p><strong>安全声明：</strong>但是请记住，互联网上的传输方法或电子存储方法都不是100％安全可靠的，我们不能保证绝对安全。如果您发现任何安全问题，请立即联系我们。</p>
+        </div>
 
-    <h3>6. Children's Privacy</h3>
-    <p>The App is suitable for users of all ages. We do not actively collect personal information from any users (including children).</p>
-    <p>However, integrated advertising services may collect device information for displaying ads. In accordance with the Children's Online Privacy Protection Act (COPPA) and other relevant laws, we recommend that parents supervise their children's use of this app.</p>
-    <p>If you are a parent and are concerned about advertising content, you can limit ad personalization in your device settings or use parental control features.</p>
+        <h2>您的权利</h2>
+        <p>根据相关法律法规，您对自己的个人信息享有以下权利：</p>
 
-    <h3>7. Data Security</h3>
-    <p>The App itself does not collect or transmit any personal user data. All game data is stored locally on your device and is protected by your device's security measures.</p>
-    <p>For information collected by advertising services, this data is processed and protected by third-party advertising service providers. The advertising service providers we choose all follow industry-standard security measures to protect user information.</p>
+        <h3>1. 访问权</h3>
+        <p>由于本应用不收集个人信息，您的所有数据都存储在设备本地。您可以通过以下方式访问：</p>
+        <ul>
+            <li>在应用内查看游戏统计数据和设置</li>
+            <li>通过系统设置查看应用存储的数据大小</li>
+        </ul>
 
-    <h3>8. Changes to Privacy Policy</h3>
-    <p>We may update this Privacy Policy from time to time. Any changes will be communicated to you through app updates. We recommend that you review this Privacy Policy regularly to stay informed of the latest information.</p>
+        <h3>2. 删除权</h3>
+        <p>您可以随时删除本应用存储的数据：</p>
+        <ul>
+            <li><strong>清除应用数据：</strong>设置 > 应用 > 保护伞扫雷 > 存储 > 清除数据</li>
+            <li><strong>卸载应用：</strong>卸载应用会自动删除所有本地数据</li>
+        </ul>
 
-    <h3>9. Contact Us</h3>
-    <div class="contact">
-        <p>If you have any questions or suggestions about this Privacy Policy, please contact us:</p>
-        <p><strong>Email</strong>: 3724vk@gmail.com</p>
-    </div>
+        <h3>3. 广告个性化控制</h3>
+        <p>广告服务提供商可能使用您的设备广告ID来提供个性化广告。您可以通过以下方式管理广告偏好：</p>
+        <ul>
+            <li><strong>退出广告个性化：</strong>设置 > Google > 广告 > 选择退出广告个性化</li>
+            <li><strong>重置广告ID：</strong>设置 > Google > 广告 > 重置广告ID</li>
+            <li><strong>限制广告跟踪：</strong>设置 > Google > 广告 > 限制广告跟踪</li>
+        </ul>
+        <p><strong>注意：</strong>退出广告个性化不会减少广告数量，但会使广告与您的兴趣相关性降低。</p>
 
-    <div class="version">
-        <p><strong>版本 / Version</strong>: 2.0</p>
-        <p><strong>生效日期 / Effective Date</strong>: 2026年3月 / December 2024</p>
+        <h3>4. 投诉权</h3>
+        <p>如果您认为我们的隐私政策或实践侵犯了您的权利，您可以：</p>
+        <ul>
+            <li>通过本页面底部的联系方式向我们投诉</li>
+            <li>向相关监管机构投诉</li>
+            <li>寻求法律救济</li>
+        </ul>
+
+        <h2>适用范围</h2>
+        <p>本隐私政策适用于：</p>
+        <ul>
+            <li>保护伞扫雷应用（包名：com.bhs.sl）</li>
+            <li>通过官方渠道分发的所有版本</li>
+        </ul>
+        
+        <p>本隐私政策<strong>不适用于</strong>：</p>
+        <ul>
+            <li>第三方广告SDK收集的信息（请参考各SDK的隐私政策）</li>
+            <li>通过广告点击跳转到的第三方网站或应用</li>
+            <li>非官方渠道下载的修改版或盗版应用</li>
+        </ul>
+
+        <h2>隐私政策变更</h2>
+        <p>我们可能会不定期更新本隐私政策，以反映我们的信息实践变化或法律要求的变化。</p>
+        
+        <p><strong>变更通知方式：</strong></p>
+        <ul>
+            <li>重大变更会通过应用更新说明通知您</li>
+            <li>在应用内显示隐私政策更新提示</li>
+            <li>在本页面顶部更新"最后更新日期"</li>
+        </ul>
+        
+        <p><strong>您的选择：</strong></p>
+        <ul>
+            <li>如果您不同意更新后的隐私政策，可以选择停止使用本应用</li>
+            <li>继续使用应用即表示您接受更新后的隐私政策</li>
+        </ul>
+        
+        <p>建议您定期查看本隐私政策以了解最新信息。</p>
+
+        <h2>常见问题解答（FAQ）</h2>
+        
+        <h3>Q1: 为什么一个单机游戏需要网络权限？</h3>
+        <p><strong>A:</strong> 网络权限仅用于加载广告内容。游戏本身完全可以离线游玩，您的游戏数据不会上传到任何服务器。如果您在无网络环境下使用，游戏功能完全正常，只是不会显示广告。</p>
+
+        <h3>Q2: 我的游戏数据会被上传吗？</h3>
+        <p><strong>A:</strong> 不会。我们没有自己的服务器，所有游戏数据（成绩、统计、设置）都存储在您的设备本地，永远不会被上传。</p>
+
+        <h3>Q3: 广告SDK会收集我的哪些信息？</h3>
+        <p><strong>A:</strong> 广告SDK主要收集设备信息（如设备型号、系统版本、设备标识符）和广告交互数据（如广告展示、点击）。这些信息用于投放相关广告和统计广告效果。详细信息请参考本页面的"第三方SDK收集的信息"部分。</p>
+
+        <h3>Q4: 如何关闭个性化广告？</h3>
+        <p><strong>A:</strong> 您可以在设备设置中关闭：设置 > Google > 广告 > 选择退出广告个性化。这不会减少广告数量，但会使广告与您的兴趣相关性降低。</p>
+
+        <h3>Q5: 如何删除应用存储的数据？</h3>
+        <p><strong>A:</strong> 您可以通过以下方式删除：设置 > 应用 > 保护伞扫雷 > 存储 > 清除数据。或者直接卸载应用，所有数据会被自动删除。</p>
+
+        <h3>Q6: 这个应用适合儿童使用吗？</h3>
+        <p><strong>A:</strong> 是的。本应用是一款健康的益智游戏，内容适合所有年龄段。我们已配置广告SDK使用儿童友好模式，过滤不适合儿童的广告。但我们仍建议家长监督儿童使用。</p>
+
+        <h3>Q7: 为什么要显示防沉迷提示？</h3>
+        <p><strong>A:</strong> 根据国家新闻出版署的相关规定，所有游戏应用都需要显示防沉迷系统须知，提醒用户（特别是未成年人）合理安排游戏时间。</p>
+
+        <h3>Q8: 我可以要求删除广告SDK收集的数据吗？</h3>
+        <p><strong>A:</strong> 广告SDK收集的数据由第三方广告服务商管理，我们无法直接访问或删除。您可以：①重置设备的广告ID ②联系相应的广告服务商（链接见本页面SDK列表）③卸载应用后，广告SDK的本地缓存会被删除。</p>
+
+        <h2>联系我们</h2>
+        <div class="contact">
+            <p>如果您对个人信息保护问题有投诉、建议、疑问，或者发现任何安全问题、不适当的广告内容，您可以通过以下方式联系我们：</p>
+            <p><strong>主要联系邮箱：</strong>finegrid@163.com</p>
+            <p><strong>备用邮箱：</strong>3724vk@gmail.com</p>
+            <p><strong>开发者：</strong>suixin</p>
+            <p><strong>应用包名：</strong>com.bhs.sl</p>
+            
+            <p><strong>我们承诺：</strong></p>
+            <ul>
+                <li>在收到您的邮件后<strong>15个工作日内</strong>给予回复</li>
+                <li>对于紧急安全问题，我们会在<strong>48小时内</strong>响应</li>
+                <li>核查并验证您的用户身份后会及时反馈您的投诉与举报</li>
+                <li>对于合理的隐私相关请求，我们会尽力协助解决</li>
+            </ul>
+            
+            <p><strong>联系我们时，请提供：</strong></p>
+            <ul>
+                <li>您的问题或建议的详细描述</li>
+                <li>相关截图（如果适用）</li>
+                <li>您的设备型号和Android系统版本</li>
+                <li>应用版本号（可在"关于"页面查看）</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p>如果您对个人信息保护问题有投诉、建议、疑问，您可以将问题发送至：</p>
+            <p><strong>邮箱：</strong>3724vk@gmail.com</p>
+            <p><strong>备用邮箱：</strong>3724vk@gmail.com</p>
+            <p><strong>开发者：</strong>suixin</p>
+            <p>我们核查并验证您的用户身份后会及时反馈您的投诉与举报。</p>
+        </div>
+
+        <div class="version">
+            <p><strong>版本：</strong>3.0（包含广告SDK）</p>
+            <p><strong>生效日期：</strong>2026年3月</p>
+        </div>
     </div>
 </body>
 </html>
